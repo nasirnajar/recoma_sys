@@ -10,16 +10,16 @@ st.markdown(
     """
     <style>
     @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
-    :root { --ink: #20251f; --muted: #72786e; --paper: #f5f3ec; --accent: #bd573c; --line: #deded3; }
-    .stApp { background-color: var(--paper); background-image: repeating-linear-gradient(135deg, transparent 0 22px, rgba(32,37,31,.018) 22px 23px); color: var(--ink); }
+    :root { --ink: #f0eee7; --muted: #a6aaa0; --paper: #171a17; --accent: #e07a5f; --line: #394139; }
+    .stApp { background-color: var(--paper); background-image: repeating-linear-gradient(135deg, transparent 0 22px, rgba(240,238,231,.018) 22px 23px); color: var(--ink); }
     html, body, [class*="css"] { font-family: 'DM Sans', sans-serif; }
     h1, h2, h3 { color: var(--ink); font-family: 'Playfair Display', Georgia, serif; }
     h1 { font-size: 2.8rem !important; margin-bottom: 0 !important; }
     .eyebrow { color: var(--accent); font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
     .lede { color: var(--muted); font-size: 1rem; margin-top: .25rem; }
-    [data-testid="stMetric"] { background: rgba(255,255,255,.56); border: 1px solid var(--line); border-radius: 6px; padding: .8rem 1rem; }
+    [data-testid="stMetric"] { background: rgba(34,39,34,.82); border: 1px solid var(--line); border-radius: 6px; padding: .8rem 1rem; }
     [data-testid="stMetricLabel"] { color: var(--muted); }
-    [data-testid="stVerticalBlockBorderWrapper"] { background: rgba(255,255,255,.7); border-color: var(--line); border-radius: 6px; }
+    [data-testid="stVerticalBlockBorderWrapper"] { background: rgba(34,39,34,.88); border-color: var(--line); border-radius: 6px; }
     [data-testid="stSelectbox"] label { color: var(--muted); font-weight: 600; }
     hr { border-color: var(--line); }
     </style>
